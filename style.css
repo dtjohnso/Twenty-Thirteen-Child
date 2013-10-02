@@ -1,0 +1,21 @@
+/*
+ Theme Name:     Twenty Thirteen Child
+ Theme URI:      http://blogs.duncanjohnson.ca/twenty-thirteen-child/
+ Description:    Twenty Thirteen Child Theme
+ Author:         Duncan Johnson
+ Author URI:     http://duncanjohnson.ca
+ Template:       twentythirteen
+ Version:        1.0.0
+*/
+
+/* =Imports styles from the parent theme
+-------------------------------------------------------------- */
+@import url('../twentythirteen/style.css');
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.entry-content blockquote {
+	font-size: 110%;
+}
