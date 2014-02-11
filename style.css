@@ -19,3 +19,7 @@
 .entry-content blockquote {
 	font-size: 110%;
 }
+
+.entry-content td {
+	vertical-align: top;
+}
