@@ -1,0 +1,3 @@
+[submodule "fluidbox"]
+	path = fluidbox
+	url = git@github.com:terrymun/Fluidbox.git
