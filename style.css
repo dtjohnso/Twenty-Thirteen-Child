@@ -13,6 +13,10 @@
 @import url('../twentythirteen/style.css');
 
 
+/* =Imports styles from fluidbox project
+-------------------------------------------------------------- */
+@import url('./fluidbox/css/fluidbox.css');
+
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
