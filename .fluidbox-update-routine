@@ -1,0 +1,14 @@
+cd Github/Twenty-Thirteen-Child/
+cd fluidbox/
+git checkout master
+git pull
+cd ..
+git status
+git add .
+git commit -m 'updated to fluidbox 1.4.2'
+git push origin master
+git status
+git add .
+git commit -m 'updated readme'
+git push origin master 
+git status
