@@ -8,4 +8,4 @@ Features
 
 * Minor adjustments to theme CSS to suit my preferences for formatting
 * [RefTagger](http://reftagger.com/) integration.
-* Implements Fluidbox 1.4.2 by Terry Mun ([Demo](http://terrymun.github.io/Fluidbox/), [Github](https://github.com/terrymun/Fluidbox)) on images in posts. 
+* Implements Fluidbox 1.4.3 by Terry Mun ([Demo](http://terrymun.github.io/Fluidbox/), [Github](https://github.com/terrymun/Fluidbox)) on images in posts. 
