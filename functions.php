@@ -6,7 +6,7 @@
         //Fluidbox
         wp_register_script( //Fluidbox plugin
         	"fluidbox",
-        	get_stylesheet_directory_uri() . "/fluidbox/jquery.fluidbox.min.js", 
+        	get_stylesheet_directory_uri() . "/fluidbox/dist/js/jquery.fluidbox.min.js", 
         	array( 'jquery' ), false, true); 
 
         //wrapper script with RefTagger and fluidbox integration        

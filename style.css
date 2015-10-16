@@ -15,7 +15,7 @@
 
 /* =Imports styles from fluidbox project
 -------------------------------------------------------------- */
-@import url('./fluidbox/css/fluidbox.css');
+@import url('./fluidbox/dist/css/fluidbox.min.css');
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
