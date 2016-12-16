@@ -29,3 +29,7 @@
 .entry-content td {
 	vertical-align: top;
 }
+
+.entry-content p {
+	font-family: 'Arimo','Source Sans Pro',Helvetica,sans-serif;
+}

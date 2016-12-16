@@ -5,9 +5,9 @@
 
         //Fluidbox
         wp_register_script( //Fluidbox plugin
-        	"fluidbox",
-        	get_stylesheet_directory_uri() . "/fluidbox/dist/js/jquery.fluidbox.min.js", 
-        	array( 'jquery' ), false, true); 
+            "fluidbox",
+            get_stylesheet_directory_uri() . "/fluidbox/dist/js/jquery.fluidbox.min.js", 
+            array( 'jquery' ), false, true); 
 
         //wrapper script with RefTagger and fluidbox integration        
         wp_register_script(
@@ -19,5 +19,8 @@
         wp_enqueue_script("fluidbox"); //add Fluidbox
         wp_enqueue_script("my-wrapper"); //my wrapper scripts
 
+        //enqueue styles
+        wp_enqueue_style( 'greek-google-fonts', 'https://fonts.googleapis.com/css?family=Arimo&amp;subset=greek,greek-ext,hebrew', false );
     }
+
 ?>
