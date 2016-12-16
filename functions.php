@@ -20,7 +20,7 @@
         wp_enqueue_script("my-wrapper"); //my wrapper scripts
 
         //enqueue styles
-        wp_enqueue_style( 'greek-google-fonts', 'https://fonts.googleapis.com/css?family=Arimo&amp;subset=greek,greek-ext,hebrew', false );
+        wp_enqueue_style( 'greek-google-fonts', 'https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i&amp;subset=greek,greek-ext,hebrew', false );
     }
 
 ?>
