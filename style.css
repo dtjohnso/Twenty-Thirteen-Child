@@ -31,10 +31,8 @@
 	vertical-align: top;
 }
 
-.entry-content p {
-	font-family: 'Arimo','Source Sans Pro',Helvetica,sans-serif;
-}
-
-.comment-content p {
-	font-family: 'Arimo','Source Sans Pro',Helvetica,sans-serif;
+/* Replace Source Sans Pro with Arimo everywhere it's used in Twenty Thirteen */
+html, button, input, select, textarea, .site-description, .format-link .entry-title, .attachment .entry-title, .author-description .author-title, .archive-title, .archive-meta, .page-title, .comments-title, .comment-reply-title, .widget .widget-title, .menu-toggle 
+{
+	font-family: 'Arimo','Source Sans Pro',Helvetica,sans-serif; 
 }
