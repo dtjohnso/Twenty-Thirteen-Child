@@ -16,6 +16,7 @@
 /* =Imports styles from fluidbox project
 -------------------------------------------------------------- */
 @import url('./fluidbox/dist/css/fluidbox.min.css');
+@import url('./bigfoot/dist/bigfoot-default.css');
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */

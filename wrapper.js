@@ -2,6 +2,11 @@
 
 jQuery(document).ready(function($) { //necessary because the fluidbox plugin responds to the '$' selector, but wordpress loads jquery in NoConflict mode[1]
     $('#content a:not([href^="#"]), a[rel="lightbox"]:not([href^="#"])').fluidbox(); //triggers fluidbox on anchors within the content div
+	$.bigfoot(
+	{
+		actionOriginalFN: "ignore"
+	}
+	); //bigfoot
 });
 
 // See https://github.com/terrymun/Fluidbox/issues/137 for issue with # tags and fluidbox
