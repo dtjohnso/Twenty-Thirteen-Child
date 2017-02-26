@@ -2,11 +2,13 @@
 
 jQuery(document).ready(function($) { //necessary because the fluidbox plugin responds to the '$' selector, but wordpress loads jquery in NoConflict mode[1]
     $('#content a:not([href^="#"]), a[rel="lightbox"]:not([href^="#"])').fluidbox(); //triggers fluidbox on anchors within the content div
-	$.bigfoot({
+	var bigfoot = $.bigfoot({
 		actionOriginalFN: "ignore",
 		activateOnHover: "true",
-		numberResetSelector: "article"
+		numberResetSelector: "article",
+		activateCallback: function(popover,button){myReftagger(document,"aside")}
 	}); //bigfoot
+	myReftagger(document, "script");
 
 });
 
@@ -32,9 +34,11 @@ var refTagger = {
 		tagChapters: true 
 	}
 };
-(function(d, t) {
+function myReftagger(d, t) {
 	var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-	g.src = "//api.reftagger.com/v2/RefTagger.js";
+	g.src = "https://api.reftagger.com/v2/RefTagger.js";
 	s.parentNode.insertBefore(g, s);
-}(document, "script"));
+}; 
+
+
 
