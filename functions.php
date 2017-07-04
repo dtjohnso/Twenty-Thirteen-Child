@@ -18,7 +18,7 @@
         wp_register_script(
             "my-wrapper",
             get_stylesheet_directory_uri() . "/wrapper.js",
-            array('fluidbox'), null, true);
+            array('fluidbox'), "1.1", true);
 
         //enqueue scripts
         wp_enqueue_script("fluidbox"); //add Fluidbox
