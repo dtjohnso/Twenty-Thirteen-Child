@@ -26,6 +26,10 @@
 
 }
 
+.entry-content blockquote em {
+	font-style: italic !important;
+}
+
 .entry-content td {
 	vertical-align: top;
 }
